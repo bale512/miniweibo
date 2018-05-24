@@ -174,10 +174,9 @@
                         </form>
                     </div>
                 </nav>
-                <!--未读消息提示-->
-                <div class="alert alert-success alert-dismissable" style="text-align: center;">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <a href="#" class="alert-link">您有未读内容，点击查看</a>
+                <!--未读消息提示,后续可以增加-->
+                <div>
+
                 </div>
                 <!--关注好友的所有微博动态-->
                 <s:iterator value="weibos" var="weibo">
